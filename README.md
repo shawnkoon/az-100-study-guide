@@ -1,6 +1,4 @@
-<p style="text-align:center">
-  <img src="./img/azure_logo.png" height=200 />
-</p>
+<img src="./img/azure_logo.png" height=200 />
 
 # Microsoft AZ-100 Study Guide
 
@@ -19,16 +17,16 @@ Here is the [Link](https://www.microsoft.com/en-us/learning/azure-administrator.
 ### Cost:
 
 - **$165.00 USD**
-- Pricing can differ if you live in different country other than `US` and if you are currently a `student`.
+- Pricing can differ if you live in a different country other than `US` and/or if you are currently a `student`.
 
 
 ### Exam Score Distributions:
 
-- Manage Azure subscriptions and resources (15-20%)
-- Implement and manage storage (20-25%)
-- Deploy and manage virtual machines (VMs) (20-25%)
-- Configure and manage virtual networks (20-25%)
-- Manage identities (15-20%)
+- Manage Azure subscriptions and resources **(15-20%)**
+- Implement and manage storage **(20-25%)**
+- Deploy and manage virtual machines (VMs) **(20-25%)**
+- Configure and manage virtual networks **(20-25%)**
+- Manage identities **(15-20%)**
 
 Here is the [Link](https://www.microsoft.com/en-us/learning/exam-az-100.aspx) for more detail about the `AZ-100` certification.
 
@@ -53,3 +51,18 @@ Following lists are specific topics this **particular exam** will cover.
 5. Manage identities.
 
 > We will dive each topics indepth later here.
+
+# Useful Links
+
+Following are the list of useful links associated with this exam.
+
+- [Azure Status Check](https://azure.microsoft.com/en-us/status/).
+  - Check Azure status across different regions.
+- [Azure HandsOn Labs](https://www.microsoft.com/handsonlabs).
+  - Able to virtually create azure web environment for different type of labs.
+- [Azure List of All Exams](https://www.microsoft.com/en-us/learning/azure-exams.aspx).
+  - See all list of exams offered by Microsoft.
+- [Azure Official Documentations](https://docs.microsoft.com/en-us/azure/).
+  - Official Documentations on Azure products.
+- [Azure Fundmental e-Learning Path](https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/).
+  - Great learning path with tutorials provided by MS.
