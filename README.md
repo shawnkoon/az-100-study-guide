@@ -66,3 +66,22 @@ Following are the list of useful links associated with this exam.
   - Official Documentations on Azure products.
 - [Azure Fundmental e-Learning Path](https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/).
   - Great learning path with tutorials provided by MS.
+
+# Notes
+
+Now, let's talk about each topics that are required on the exam.
+
+## Manage Azure Subscriotions and resources (15-20%)
+
+### Manage Azure subscriptions
+> May include but not limited to: Assign administrator permissions; configure cost center quotas and tagging; configure Azure subscription policies at Azure subscription level
+
+- **Assign administrator permissions**
+  - Read [Azure Document](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles) on this topic in details.
+  - On the Azure portal, just Click `All services` -> `Subscriptions` -> Click on any `Subscriptions` -> `Access control (IAM)` -> `Add role assignment`.
+    - Just chose the correct Role, Access Target, and User in the form to finish adding a admin.
+  - Or `Azure Active Directory` -> `Roles and administrators` -> Click any `Role` -> `Add Member` to add users to a specific role.
+
+- **Configure cost center quotas and tagging**
+
+- **Configure Azure subscription policies at Azure subscription level**
