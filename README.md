@@ -1,10 +1,10 @@
 <img src="./img/azure_logo.png" height=200 />
 
-# Microsoft AZ-100 Study Guide
+# Microsoft AZ-100 Study Guide 😎
 
 AZ-100 **Microsoft Azure Infrastructure and Deployment** Certification *personal* Study Guide.
 
-# About
+# About 📌
 
 AZ-100 certification is 1 of 2 required certifications to aquire the title,
 
@@ -30,7 +30,7 @@ Here is the [Link](https://www.microsoft.com/en-us/learning/azure-administrator.
 
 Here is the [Link](https://www.microsoft.com/en-us/learning/exam-az-100.aspx) for more detail about the `AZ-100` certification.
 
-# Overview
+# Overview 🏔
 
 This exam `AZ-100` will prepare Candidates for this exam are Azure Administrators who manage cloud services that span storage, security, networking, and compute cloud capabilities.
 
@@ -52,7 +52,7 @@ Following lists are specific topics this **particular exam** will cover.
 
 > We will dive each topics indepth later here.
 
-# Useful Links
+# Useful Links ⛓
 
 Following are the list of useful links associated with this exam.
 
@@ -71,21 +71,27 @@ Following are the list of useful links associated with this exam.
 - [Azure Fundmental e-Learning Path](https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/).
   - Great learning path with tutorials provided by MS.
 
-# Notes
+# Study Guide 📝
 
 Now, let's talk about each topics that are required on the exam.
 
-## Manage Azure Subscriotions and resources (15-20%)
+## 🍏 Manage Azure Subscriotions and resources (15-20%)
 
-### Manage Azure subscriptions
-> May include but not limited to: Assign administrator permissions; configure cost center quotas and tagging; configure Azure subscription policies at Azure subscription level
+- **Manage Azure subscriptions**
+  > May include but not limited to: Assign administrator permissions; configure cost center quotas and tagging; configure Azure subscription policies at Azure subscription level
 
-- **Assign administrator permissions**
-  - Read [Azure Document](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles) on this topic in details.
-  - On the Azure portal, just Click `All services` -> `Subscriptions` -> Click on any `Subscriptions` -> `Access control (IAM)` -> `Add role assignment`.
-    - Just chose the correct Role, Access Target, and User in the form to finish adding a admin.
-  - Or `Azure Active Directory` -> `Roles and administrators` -> Click any `Role` -> `Add Member` to add users to a specific role.
+  - **Assign administrator permissions**
+    - Read [Azure Document](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles) on this topic in details.
+    - On the Azure portal, just Click `All services` -> `Subscriptions` -> Click on any `Subscriptions` -> `Access control (IAM)` -> `Add role assignment`.
+      - Just chose the correct Role, Access Target, and User in the form to finish adding a admin.
+    - Or `Azure Active Directory` -> `Roles and administrators` -> Click any `Role` -> `Add Member` to add users to a specific role.
 
-- **Configure cost center quotas and tagging**
+  - **Configure cost center quotas and tagging**
 
-- **Configure Azure subscription policies at Azure subscription level**
+  - **Configure Azure subscription policies at Azure subscription level**
+
+- **Analyze resource utilization and consumption**
+  > May include but not limited to: Configure diagnostic settings on resources; create baseline for resources; create and test alerts; analyze alerts across subscription; analyze metrics across subscription; create action groups; monitor for unused resources; monitor spend; report on spend; utilize Log Search query functions; view alerts in Log Analytics.
+
+- **Manage resource groups**
+  > May include but not limited to: Use Azure policies for resource groups; configure resource locks; configure resource policies; implement and set tagging on resource groups; move resources across resource groups; remove resource groups
