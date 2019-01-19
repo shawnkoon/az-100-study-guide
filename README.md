@@ -56,6 +56,10 @@ Following lists are specific topics this **particular exam** will cover.
 
 Following are the list of useful links associated with this exam.
 
+- [Azure Portal](https://portal.azure.com).
+  - Main Azure landing portal page.
+- [Azure Sign Up details](https://azure.microsoft.com/en-us/pricing/).
+  - Info regarding Sign Up with Azure to get started.
 - [Azure Status Check](https://azure.microsoft.com/en-us/status/).
   - Check Azure status across different regions.
 - [Azure HandsOn Labs](https://www.microsoft.com/handsonlabs).
