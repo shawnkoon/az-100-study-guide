@@ -102,37 +102,64 @@ Now, let's talk about each topics that are required on the exam.
 - ### **Analyze resource utilization and consumption**
   > May include but not limited to: Configure diagnostic settings on resources; create baseline for resources; create and test alerts; analyze alerts across subscription; analyze metrics across subscription; create action groups; monitor for unused resources; monitor spend; report on spend; utilize Log Search query functions; view alerts in Log Analytics.
   - **Configure diagnostic settings on resources**
+    - Read [Diagnostic Log](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/diagnostic-logs-overview) for more details.
+    - **Diagnostic logs** are bascially a *resource level log* in two different types (Tenant logs & Resource logs). Which is different from **Activity log** which is *Subscription level* event based logs.
+    - Diagnostic settings must be turned on with each resources to start collecting diagnostic, **Virtual Machine** for instance requires an **agent** to be installed with a specific **storage account** that will track customized set of CPU/Memory/Disk/Network/etc & app logs/crash dump/sinks.
+    - To access Diagnostic settings: Search `Monitor` service -> Click on `Diagnostic settings` -> update the filters to create Diagnostic log.
 
   - **Create baseline for resources**
+    - Read [Download Template](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/download-template) for more details.
+    - Baseline(**Template**) of resources is a template that contains information about all of the resources in a resource group and which then can be used to quickly duplicate a deployment.
+    - To access this template: Search `Resource Groups` -> Click on any Resource Group -> then click `Deployments` on the nav bar -> click on any Deployment -> then click `Template` on the nav bar. Or access `Automation Script` nav bar from each resource level to download template for a specific `Resource`.
+    - You can also save template into `Template` service (PREVIEW) with an ARM template.
 
   - **Create and test alerts**
+    - Read [All about Alerts](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-overview) for more details.
+    - Alerts proactively notify you when important conditions are found in your monitoring data. They allow you to identify and address issues before the users of your system notice them.
+    - To create alerts: Search `Monitor` -> Click on `Alerts` on nav bar -> click `New alert rule` -> then fillout Resource, Condition, Action Group, and alert details to finish creating alert.
 
   - **Analyze alerts across subscription**
+    - Read [All about Alerts](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-overview) for more details.
+    - To access alert analysis: Search `Monitor` -> Click on `Alerts` on nav bar -> modify filters on subscription level.
+    - You can also access each resource `Alert` details by going into it's(Resource) own details view, then `Alerts` on the nav bar.
 
   - **Analyze metrics across subscription**
+    - Read []() for more details.
 
   - **Create Action Groups**
+    - Read []() for more details.
 
   - **Monitor for unused resources**
+    - Read []() for more details.
 
   - **Monitor spend**
+    - Read []() for more details.
 
   - **Report on spend**
+    - Read []() for more details.
 
   - **Utilize log search query functions**
+    - Read []() for more details.
 
   - **View alerts in Log Analytics**
+    - Read []() for more details.
 
 - ### **Manage resource groups**
   > May include but not limited to: Use Azure policies for resource groups; configure resource locks; configure resource policies; implement and set tagging on resource groups; move resources across resource groups; remove resource groups
   - **Use Azure Policies for resource groups**
+    - Read []() for more details.
 
   - **Configure resource locks**
+    - Read []() for more details.
 
   - **Configure resource policies**
+    - Read []() for more details.
 
   - **Implement and set tagging on resource groups**
+    - Read []() for more details.
 
   - **Move resource across resource groups**
+    - Read []() for more details.
 
   - **Remove resource groups**
+    - Read []() for more details.
