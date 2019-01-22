@@ -77,40 +77,62 @@ Now, let's talk about each topics that are required on the exam.
 
 ## 🍏 Manage Azure Subscriotions and resources (15-20%)
 
-- **Manage Azure subscriptions**
+- ### **Manage Azure subscriptions**
   > May include but not limited to: Assign administrator permissions; configure cost center quotas and tagging; configure Azure subscription policies at Azure subscription level
 
   - **Assign administrator permissions**
     - Read [Azure Document](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles) for more details.
-
     - To add more **admin user**: On the Azure portal, just Click `All services` -> `Subscriptions` -> Click on any `Subscription` -> `Access control (IAM)` -> `Add role assignment`.
-
       - Just chose the correct Role, Access Target, and User in the form to finish adding a admin.
-
     - Or `Azure Active Directory` -> `Roles and administrators` -> Click any `Role` -> `Add Member` to add users to a specific role.
 
   - **Configure cost center quotas and tagging**
     - Read [Cost center Quota](https://docs.microsoft.com/en-us/azure/billing/billing-getting-started#ways-to-monitor-your-costs-when-using-azure-services) for more details.
-
     - Read [Tags](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-using-tags) for more details.
-
     - To check the **cost quota**: On the azure portal, just click `All services` -> `Subscriptions` -> Click on any `Subscription` -> `Cost analysis`.
       - You can filter by different properties like tags, resource type, resource group, and timespan.
-
     - *Tags* are basically a **key :: value** pair that can be used to categorize your resources in your custom flavor.
-
     - You can set **tags** on resource creations([Not all](https://docs.microsoft.com/en-us/azure/azure-resource-manager/tag-support)), and also can be enforced by attaching *Policy* to resource group or subscription to force new resources to have tags on creation.
-
 
   - **Configure Azure subscription policies at Azure subscription level**
     - Read [Create and Manage Policy](https://docs.microsoft.com/en-us/azure/governance/policy/tutorials/create-and-manage) for more details.
-
     - Understanding how to create and manage policies in Azure is important for staying compliant with your corporate standards and service level agreements. You can also gain a huge benefit of being able to **enforce a condition for resources** you create in the future.
+    - To **assign policy**: On the azure portal, just click `All services` -> `Policy` -> `Assignments` on the left nav -> `Assign Policy` -> Scope it to a subscription or optionally a Resource Group then create assignment by filling up details.
 
-    - To **assign policy**: On the azure portal, just click `All services` -> `Policy` -> `Assignments` on the left nav -> `Assign Policy` -> Scope it to a subscription then create assignment by filling up details.
-
-- **Analyze resource utilization and consumption**
+- ### **Analyze resource utilization and consumption**
   > May include but not limited to: Configure diagnostic settings on resources; create baseline for resources; create and test alerts; analyze alerts across subscription; analyze metrics across subscription; create action groups; monitor for unused resources; monitor spend; report on spend; utilize Log Search query functions; view alerts in Log Analytics.
+  - **Configure diagnostic settings on resources**
 
-- **Manage resource groups**
+  - **Create baseline for resources**
+
+  - **Create and test alerts**
+
+  - **Analyze alerts across subscription**
+
+  - **Analyze metrics across subscription**
+
+  - **Create Action Groups**
+
+  - **Monitor for unused resources**
+
+  - **Monitor spend**
+
+  - **Report on spend**
+
+  - **Utilize log search query functions**
+
+  - **View alerts in Log Analytics**
+
+- ### **Manage resource groups**
   > May include but not limited to: Use Azure policies for resource groups; configure resource locks; configure resource policies; implement and set tagging on resource groups; move resources across resource groups; remove resource groups
+  - **Use Azure Policies for resource groups**
+
+  - **Configure resource locks**
+
+  - **Configure resource policies**
+
+  - **Implement and set tagging on resource groups**
+
+  - **Move resource across resource groups**
+
+  - **Remove resource groups**
